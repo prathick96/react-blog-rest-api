@@ -1,10 +1,10 @@
-require("./src/config/dbconfig");
+require("./config/dbconfig");
 const express = require("express");
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
-const postRouter = require("./src/routers/postRouter");
-const authorRouter = require("./src/routers/authorRouter");
-const adminRouter = require("./src/routers/adminRouter");
+const postRouter = require("./routers/postRouter");
+const authorRouter = require("./routers/authorRouter");
+const adminRouter = require("./routers/adminRouter");
 const cors = require("cors");
 
 const app = express();
